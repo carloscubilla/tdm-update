@@ -1,0 +1,5 @@
+---
+- name: Playbok update fedora 24 y 29
+  hosts: all
+  roles:
+    - roles/

@@ -1,0 +1,11 @@
+---
+- name: Descargamos RPM de Google Chrome
+  get_url:
+    url: '{{ Chrome }}'
+    dest: /tmp
+    mode: '0777'
+
+- name: Instalar Chrome
+  package:
+    name: '{{ Chrome }}'
+    state: present

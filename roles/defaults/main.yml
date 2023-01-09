@@ -1,0 +1,4 @@
+---
+# defaults file for roles
+Chrome: ftp://ftp.bristol.com.py/google/chrome.rpm.gz
+update_Fedora: https://rpm.ocsinventory-ng.org/ocsinventory-release-latest.fc30.ocs.noarch.rpm

@@ -1,0 +1,11 @@
+---
+- name: Descargamos repo update fedora 
+  get_url:
+    url: '{{ update_Fedora }}'
+    dest: /tmp
+    mode: '0777'
+
+- name: Instalar update fedora
+  package:
+    name: '{{ update_Fedora }}'
+    state: present
